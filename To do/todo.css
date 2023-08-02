@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+.contain{
+    width: 100%;
+    height: 100%;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin: 10px 1px; 
+}
+.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+.contain{
+    display: flex;
+}
+img{
+    border-radius:0px 0px 10px 10px;
+    width:"100%" ;
+    height:"40%"
+}
+#left{
+    margin-right: 10%;
+    width: 300px;
+    height: 480px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgba(241, 237, 230, 0.852);
+}
+label{
+    font-size: 25px;
+    font-weight:bold;
+    margin-bottom: 3%;
+}
+input{
+    height: 8%;
+    font-size: 15px;
+    background-color: rgb(190, 226, 214);
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 2%;
+}
+#left button{
+    padding: 10px;
+    font-size: 20px;
+    font-weight:bold;
+    border-radius: 20px;
+    background-color: rgb(215, 215, 43);
+    border: none;
+}
+#right{
+    width: 600px;
+    text-align: center;
+}
+h2{
+    font-size: 55px;
+    font-weight: bold;
+    margin-top:0 ;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -4px;
+
+}
+h1{
+    font-weight: bold;
+    font-size: 45px;
+}
+button{
+   text-align: center;
+   line-height: 25px;
+   background-color: white;
+   font-size: 20px;
+   font-weight: bold;
+   cursor: pointer;
+}
+@media screen and (max-width:900px){
+    h2{
+        font-size: 40px;
+        color: aliceblue;
+    }
+    p{
+        color: aliceblue;
+    }
+    h1{
+        color: aliceblue;
+    }
+    #left{
+        height:380px;    
+    }
+    li{
+        color: aliceblue;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:100vh;
+    }
+    img{
+        border-radius:0px 0px 10px 10px;
+        width:100% ;
+        height:29%
+    }
+}
